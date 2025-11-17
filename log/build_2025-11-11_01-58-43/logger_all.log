@@ -1,0 +1,90 @@
+[0.713s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.713s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff8f5c745b0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff8f5c745b0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff8f5bcc310>)
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.098s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rocotics/ros2_ws/src/custom_robot_sim'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.224s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'custom_robot_sim'
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/rocotics/ros2_ws/install
+[1.355s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/foxy
+[1.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.793s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'cmake_args' from command line to 'None'
+[1.794s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'cmake_target' from command line to 'None'
+[1.794s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.794s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.794s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.794s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.794s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.794s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.794s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.794s] DEBUG:colcon.colcon_core.verb:Building package 'custom_robot_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rocotics/ros2_ws/src/custom_robot_sim/build/custom_robot_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim', 'merge_install': False, 'path': '/home/rocotics/ros2_ws/src/custom_robot_sim', 'symlink_install': False, 'test_result_base': None}
+[1.794s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.797s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rocotics/ros2_ws/src/custom_robot_sim' with build type 'ament_python'
+[1.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_sim', 'ament_prefix_path')
+[1.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/hook/ament_prefix_path.ps1'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/hook/ament_prefix_path.dsv'
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/hook/ament_prefix_path.sh'
+[1.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.298s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rocotics/ros2_ws/src/custom_robot_sim'
+[2.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rocotics/ros2_ws/src/custom_robot_sim': PYTHONPATH=/home/rocotics/ros2_ws/src/custom_robot_sim/build/custom_robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/custom_robot_sim build --build-base /home/rocotics/ros2_ws/src/custom_robot_sim/build/custom_robot_sim/build install --record /home/rocotics/ros2_ws/src/custom_robot_sim/build/custom_robot_sim/install.log --install-scripts $base/lib/custom_robot_sim --single-version-externally-managed install_data
+[4.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rocotics/ros2_ws/src/custom_robot_sim' returned '0': PYTHONPATH=/home/rocotics/ros2_ws/src/custom_robot_sim/build/custom_robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/custom_robot_sim build --build-base /home/rocotics/ros2_ws/src/custom_robot_sim/build/custom_robot_sim/build install --record /home/rocotics/ros2_ws/src/custom_robot_sim/build/custom_robot_sim/install.log --install-scripts $base/lib/custom_robot_sim --single-version-externally-managed install_data
+[4.216s] Level 1:colcon.colcon_core.environment:checking '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim' for CMake module files
+[4.217s] Level 1:colcon.colcon_core.environment:checking '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim' for CMake config files
+[4.220s] Level 1:colcon.colcon_core.environment:checking '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/lib'
+[4.220s] Level 1:colcon.colcon_core.environment:checking '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/bin'
+[4.220s] Level 1:colcon.colcon_core.environment:checking '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/lib/pkgconfig/custom_robot_sim.pc'
+[4.221s] Level 1:colcon.colcon_core.environment:checking '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/lib/python3.8/site-packages'
+[4.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_sim', 'pythonpath')
+[4.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/hook/pythonpath.ps1'
+[4.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/hook/pythonpath.dsv'
+[4.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/hook/pythonpath.sh'
+[4.225s] Level 1:colcon.colcon_core.environment:checking '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/bin'
+[4.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robot_sim)
+[4.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/package.ps1'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/package.dsv'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/package.sh'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/package.bash'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/custom_robot_sim/package.zsh'
+[4.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rocotics/ros2_ws/src/custom_robot_sim/install/custom_robot_sim/share/colcon-core/packages/custom_robot_sim)
+[4.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.242s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.327s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.327s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.327s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.442s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/local_setup.ps1'
+[4.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rocotics/ros2_ws/src/custom_robot_sim/install/_local_setup_util_ps1.py'
+[4.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/setup.ps1'
+[4.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/local_setup.sh'
+[4.458s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rocotics/ros2_ws/src/custom_robot_sim/install/_local_setup_util_sh.py'
+[4.460s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/setup.sh'
+[4.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/local_setup.bash'
+[4.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/setup.bash'
+[4.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/local_setup.zsh'
+[4.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rocotics/ros2_ws/src/custom_robot_sim/install/setup.zsh'
